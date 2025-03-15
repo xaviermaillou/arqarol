@@ -1,0 +1,22 @@
+#project-list {
+    width: 100vw;
+    padding: 156px 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#project-list .overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100dvh;
+    width: 100dvw;
+    z-index: -15;
+    backdrop-filter: blur(6px) grayscale(100%) opacity(0);
+    transition: backdrop-filter 0.3s 0.3s;
+}
+#project-list.blurred .overlay {
+    z-index: 15;
+    backdrop-filter: blur(6px) grayscale(100%) opacity(1);
+}

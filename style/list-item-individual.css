@@ -1,0 +1,248 @@
+#project-list > li:nth-child(1) .content {
+    background-color: blueviolet;
+    transform: translateY(-12px);
+    transform: rotate(15deg);
+    color: white;
+}
+#project-list > li.opened:nth-child(1) .content {
+    background-color: rgba(138, 43, 226, 0.85);
+}
+#project-list > li:nth-child(1) .content img.thumbnail {
+    transform: rotate(5deg);
+}
+
+#project-list > li:nth-child(2) .content {
+    background-color: lime;
+    transform: translateY(-6px);
+    transform: rotate(-25deg);
+}
+#project-list > li.opened:nth-child(2) .content {
+    background-color: rgba(0, 255, 0, 0.85);
+}
+#project-list > li:nth-child(2) .content img.thumbnail {
+    transform: rotate(-5deg);
+}
+
+#project-list > li:nth-child(3) .content {
+    background-color: pink;
+    transform: translateY(-24px);
+    transform: rotate(-10deg);
+}
+#project-list > li.opened:nth-child(3) .content {
+    background-color: rgba(255, 192, 203, 0.85);
+}
+#project-list > li:nth-child(3) .content img.thumbnail {
+    transform: rotate(5deg);
+}
+
+#project-list > li:nth-child(4) .content {
+    background-color: brown;
+    transform: translateY(0px);
+    transform: rotate(15deg);
+    color: white;
+}
+#project-list > li.opened:nth-child(4) .content {
+    background-color: rgba(165, 42, 42, 0.85);
+}
+#project-list > li:nth-child(4) .content img.thumbnail {
+    transform: rotate(-5deg);
+}
+
+#project-list > li:nth-child(5) .content {
+    background-color: darkred;
+    transform: translateY(0px);
+    transform: rotate(5deg);
+    color: white;
+}
+#project-list > li.opened:nth-child(5) .content {
+    background-color: rgba(139, 0, 0, 0.85);
+}
+#project-list > li:nth-child(5) .content img.thumbnail {
+    transform: rotate(5deg);
+}
+
+#project-list > li:nth-child(6) .content {
+    background-color: purple;
+    transform: translateY(-12px);
+    transform: rotate(30deg);
+    color: white;
+}
+#project-list > li.opened:nth-child(6) .content {
+    background-color: rgba(128, 0, 128, 0.85);
+}
+#project-list > li:nth-child(6) .content img.thumbnail {
+    transform: rotate(-10deg);
+}
+
+#project-list > li:nth-child(7) .content {
+    background-color: gold;
+    transform: translateY(-18px);
+    transform: rotate(15deg);
+}
+#project-list > li.opened:nth-child(7) .content {
+    background-color: rgba(255, 215, 0, 0.85);
+}
+#project-list > li:nth-child(7) .content img.thumbnail {
+    transform: rotate(5deg);
+}
+
+#project-list > li:nth-child(8) .content {
+    background-color: chocolate;
+    transform: translateY(-6px);
+    transform: rotate(5deg);
+    color: white;
+}
+#project-list > li.opened:nth-child(8) .content {
+    background-color: rgba(210, 105, 30, 0.85);
+}
+#project-list > li:nth-child(8) .content img.thumbnail {
+    transform: rotate(10deg);
+}
+
+#project-list > li:nth-child(9) .content {
+    background-color: slategrey;
+    transform: translateY(-24px);
+    transform: rotate(-15deg);
+    color: white;
+}
+#project-list > li.opened:nth-child(9) .content {
+    background-color: rgba(112, 128, 144, 0.85);
+}
+#project-list > li:nth-child(9) .content img.thumbnail {
+    transform: rotate(5deg);
+}
+
+#project-list > li:nth-child(10) .content {
+    background-color: springgreen;
+    transform: translateY(0px);
+    transform: rotate(5deg);
+}
+#project-list > li.opened:nth-child(10) .content {
+    background-color: rgba(0, 255, 127, 0.85);
+}
+#project-list > li:nth-child(10) .content img.thumbnail {
+    transform: rotate(15deg);
+}
+
+#project-list > li:nth-child(11) .content {
+    background-color: cornflowerblue;
+    transform: translateY(-24px);
+    transform: rotate(10deg);
+}
+#project-list > li.opened:nth-child(11) .content {
+    background-color: rgba(100, 149, 237, 0.85);
+}
+#project-list > li:nth-child(11) .content img.thumbnail {
+    transform: rotate(15deg);
+}
+
+#project-list > li:nth-child(12) .content {
+    background-color: crimson;
+    transform: translateY(-24px);
+    transform: rotate(-15deg);
+    color: white;
+}
+#project-list > li.opened:nth-child(12) .content {
+    background-color: rgba(220, 20, 60, 0.85);
+}
+#project-list > li:nth-child(12) .content img.thumbnail {
+    transform: rotate(-5deg);
+}
+
+#project-list > li:nth-child(13) .content {
+    background-color: fuchsia;
+    transform: translateY(-12px);
+    transform: rotate(5deg);
+}
+#project-list > li.opened:nth-child(13) .content {
+    background-color: rgba(255, 0, 255, 0.85);
+}
+#project-list > li:nth-child(13) .content img.thumbnail {
+    transform: rotate(10deg);
+}
+
+#project-list > li:nth-child(14) .content {
+    background-color: rosybrown;
+    transform: translateY(-24px);
+    transform: rotate(-15deg);
+}
+#project-list > li.opened:nth-child(14) .content {
+    background-color: rgba(188, 143, 143, 0.85);
+}
+#project-list > li:nth-child(14) .content img.thumbnail {
+    transform: rotate(-10deg);
+}
+
+#project-list > li:nth-child(15) .content {
+    background-color: indianred;
+    transform: translateY(-12px);
+    transform: rotate(35deg);
+    color: white;
+}
+#project-list > li.opened:nth-child(15) .content {
+    background-color: rgba(205, 92, 92, 0.85);
+}
+#project-list > li:nth-child(15) .content img.thumbnail {
+    transform: rotate(-15deg);
+}
+
+#project-list > li:nth-child(16) .content {
+    background-color: darkgreen;
+    transform: translateY(0px);
+    transform: rotate(-5deg);
+    color: white;
+}
+#project-list > li.opened:nth-child(16) .content {
+    background-color: rgba(0, 100, 0, 0.85);
+}
+#project-list > li:nth-child(16) .content img.thumbnail {
+    transform: rotate(-15deg);
+}
+
+#project-list > li:nth-child(17) .content {
+    background-color: violet;
+    transform: translateY(-32px);
+    transform: rotate(35deg);
+}
+#project-list > li.opened:nth-child(17) .content {
+    background-color: rgba(238, 130, 238, 0.85);
+}
+#project-list > li:nth-child(17) .content img.thumbnail {
+    transform: rotate(-5deg);
+}
+
+#project-list > li:nth-child(18) .content {
+    background-color: silver;
+    transform: translateY(-12px);
+    transform: rotate(-10deg);
+}
+#project-list > li.opened:nth-child(18) .content {
+    background-color: rgba(192, 192, 192, 0.85);
+}
+#project-list > li:nth-child(18) .content img.thumbnail {
+    transform: rotate(-5deg);
+}
+
+#project-list > li:nth-child(19) .content {
+    background-color: steelblue;
+    transform: translateY(-6px);
+    transform: rotate(-25deg);
+}
+#project-list > li.opened:nth-child(19) .content {
+    background-color: rgba(70, 130, 180, 0.85);
+}
+#project-list > li:nth-child(19) .content img.thumbnail {
+    transform: rotate(10deg);
+}
+
+#project-list > li:nth-child(20) .content {
+    background-color: chartreuse;
+    transform: translateY(-18px);
+    transform: rotate(15deg);
+}
+#project-list > li.opened:nth-child(20) .content {
+    background-color: rgba(127, 255, 0, 0.85);
+}
+#project-list > li:nth-child(20) .content img.thumbnail {
+    transform: rotate(5deg);
+}

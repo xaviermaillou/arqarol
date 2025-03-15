@@ -1,0 +1,98 @@
+@media screen and (min-width: 402px) {
+    #project-list > li {
+        height: 32.67dvw;
+        width: 32.67%;
+    }
+    #project-list > li:not(.active):hover {
+        width: 34.66%;
+    }
+    #project-list > li .content img.thumbnail {
+        width: 34.66vw;
+    }
+}
+@media screen and (min-width: 718px) {
+    #project-list > li {
+        height: 24.5dvw;
+        width: 24.5%;
+    }
+    #project-list > li:not(.active):hover {
+        width: 26.5%;
+    }
+    #project-list > li .content img.thumbnail {
+        width: 26.5vw;
+    }
+}
+@media screen and (min-width: 896px) {
+    #project-list > li {
+        height: 19.6dvw;
+        width: 19.6%;
+    }
+    #project-list > li:not(.active):hover {
+        width: 21.6%;
+    }
+    #project-list > li .content img.thumbnail {
+        width: 21.6vw;
+    }
+}
+@media screen and (min-width: 1154px) {
+    #project-list > li {
+        height: 16.33dvw;
+        width: 16.33%;
+    }
+    #project-list > li:not(.active):hover {
+        width: 18.35%;
+    }
+    #project-list > li .content img.thumbnail {
+        width: 18.35vw;
+    }
+}
+@media screen and (min-width: 1367px) {
+    #project-list > li {
+        height: 14dvw;
+        width: 14%;
+    }
+    #project-list > li:not(.active):hover {
+        width: 16%;
+    }
+    #project-list > li .content img.thumbnail {
+        width: 16vw;
+    }
+}
+@media screen and (min-width: 1712px) {
+    #project-list > li {
+        height: 12.25dvw;
+        width: 12.25%;
+    }
+    #project-list > li:not(.active):hover {
+        width: 14.25%;
+    }
+    #project-list > li .content img.thumbnail {
+        width: 14.25vw;
+    }
+}
+@media screen and (min-width: 2122px) {
+    #project-list > li {
+        height: 10.89dvw;
+        width: 10.89%;
+    }
+    #project-list > li:not(.active):hover {
+        width: 12.88%;
+    }
+    #project-list > li .content img.thumbnail {
+        width: 12.88vw;
+    }
+}
+@media screen and (min-width: 2424px) {
+    #project-list > li {
+        height: 9.8dvw;
+        width: 9.8%;
+    }
+    #project-list > li:not(.active):hover {
+        width: 11.8%;
+    }
+    #project-list > li .content img.thumbnail {
+        width: 11.8vw;
+    }
+}
+
+/* 1,02040816327 */
