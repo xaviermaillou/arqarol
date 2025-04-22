@@ -1,4 +1,4 @@
-const LIST_URL = "https://rickandmortyapi.com/api/character"
+const LIST_URL = "http://localhost:7001"
 
 const request = async (url) => {
     try {
@@ -11,5 +11,5 @@ const request = async (url) => {
     }
 }
 
-export const requestProjectList = async () => (await request(LIST_URL))?.results
-export const requestProjectDetail = async (id) => await request(`${LIST_URL}/${id}`)
+export const requestProjectList = async () => await request(`${LIST_URL}/projects`)
+export const requestProjectDetail = async (id) => await request(`${LIST_URL}/projects/${id}`)

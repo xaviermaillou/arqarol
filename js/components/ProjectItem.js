@@ -8,9 +8,9 @@ class ProjectItem {
         this.blurBackground = blurBackground
 
         this.globalElement = createElement({ tag: "li" })
-        this.titleElement = createElement({ tag: "span", textContent: infoData.name, className: "overview-title" })
+        this.titleElement = createElement({ tag: "span", textContent: infoData.title, className: "overview-title" })
         this.contentElement = createElement({ tag: "div", className: "content" })
-        this.thumbnailElement = createElement({ tag: "img", className: "thumbnail", src: infoData.image })
+        this.thumbnailElement = createElement({ tag: "img", className: "thumbnail", src: `http://51.77.230.232:6890/arqarol/${infoData.thumbnail}.webp` })
         this.detailsElement = new ProjectDetail({ closeItem: () => {
             removeClasses(this.globalElement, ["active", "opened", "fixed"])
 
@@ -46,7 +46,7 @@ class ProjectItem {
 
     async populateItem() {
         const detailsData = await requestProjectDetail(this.infoData.id)
-        this.detailsElement.populate(detailsData)
+        this.detailsElement.populate(this.infoData.title, detailsData)
     }
 
     render() {

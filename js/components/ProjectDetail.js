@@ -5,21 +5,29 @@ class ProjectDetail {
     constructor({ closeItem }) {
         this.closeItem = closeItem
         this.globalElement = createElement({ tag: "section", className: "details" })
+        this.observer = new IntersectionObserver((entries) => entries
+            .forEach(entry => entry.target.classList[entry.isIntersecting ? "add" : "remove"]("show-text")),
+            {
+                root: this.globalElement,
+                threshold: 0.7
+            }
+        )
     }
 
-    async populate(data) {
+    async populate(title, data) {
         setTimeout(() => {
-            this.globalElement.appendChild(createElement({ tag: "h2", textContent: data.name }))
-            new Array(
-                { field: "species", value: data.species, image: data.image },
-                { field: "status", value: data.status },
-                { field: "location", value: data.location.name }
-            ).forEach(data => {
-                this.globalElement.appendChild(new ProjectArticle({ title: data.field, imageSrc: data.image, textContent: data.value }).render())
+            data.forEach(el => {
+                this.globalElement.appendChild(new ProjectArticle({
+                    title: el.title,
+                    imageSrc: `http://51.77.230.232:6890/arqarol/${el.image}.webp`,
+                    textContent: el.text,
+                    observer: this.observer
+                }).render())
             })
         }, 300)
 
         setTimeout(() => {
+            this.globalElement.appendChild(createElement({ tag: "h2", textContent: title }))
             this.globalElement.appendChild(createElement({ tag: "button", textContent: "X", className: "close", onClick: () => this.close() }))
         }, 1300)
     }
